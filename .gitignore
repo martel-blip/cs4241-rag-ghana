@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.streamlit/secrets.toml
+
+# Local caches
+cache/
+*.npy
+*.pkl
+feedback.json
+eval_report.json
+
+# Env
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
